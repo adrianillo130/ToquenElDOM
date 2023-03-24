@@ -8,7 +8,7 @@ body{
 }
 
 .imgContainer{
-    width: 18.5%;
+    width: 25%;
 }
 
 header{
@@ -27,6 +27,7 @@ header{
 
 .liNav1{
     margin-right: 30vh;
+    margin-left: 14%;
 }
 
 .liNav2{
@@ -39,5 +40,13 @@ header{
 
 .botonContainer{
     display: flex;
+}
+
+.boton2{
+    margin-right: 30px;
+}
+
+.boton1{
+    margin-right: 10px;
 }
 
