@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    box-shadow: 0px 7px 30px 5px #C48F8F;
+}
+
+
+.icono-inicio {
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+.iconos-derecha {
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-left: 30%;
+}
+
+img {
+    width: 90%;
+}
+
+
+.img-inicio {
+    width: 80%;
+    margin-top: -5%;
+}
+
+button {
+    width: 30%;
+    background-color: black;
+    border: none;
+}
+
+
+button:active {
+    background-color: #C48F8F;
+}
+
+
+main {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.div-titulo {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 20%;
+}
+
+.titulo {
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 5%;
+    color: #C48F8F;
+}
+
+
+.iconos-instrumentos {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.botones-pag-inicio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+button {
+    border-radius: 100%;
+    
+
+}
+

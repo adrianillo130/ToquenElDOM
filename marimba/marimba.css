@@ -1,8 +1,4 @@
-.navbar {
-    background-color: black;
-    width: 100%;
-    height: 10vh;
-}
+
 
 
 .cuerpo-pag-marimba {
@@ -37,6 +33,7 @@
 
 
 .tecla1 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 34%;
     margin-left: 0.5%;
@@ -47,6 +44,7 @@
 }
 
 .tecla2 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 40%;
     margin-left: 0.5%;
@@ -57,6 +55,7 @@
 }
 
 .tecla3 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 47%;
     margin-left: 0.5%;
@@ -67,6 +66,7 @@
 }
 
 .tecla4 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 54%;
     margin-left: 0.5%;
@@ -77,6 +77,7 @@
 }
 
 .tecla5 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 60%;
     margin-left: 0.5%;
@@ -87,6 +88,7 @@
 }
 
 .tecla6 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 66%;
     margin-left: 0.5%;
@@ -97,6 +99,7 @@
 }
 
 .tecla7 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 74%;
     margin-left: 0.5%;
@@ -107,6 +110,7 @@
 }
 
 .tecla8 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 80%;
     margin-left: 0.5%;
@@ -117,6 +121,7 @@
 }
 
 .tecla9 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 87%;
     margin-left: 0.5%;
@@ -127,6 +132,7 @@
 }
 
 .tecla10 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 95%;
     margin-left: 0.5%;
@@ -137,6 +143,7 @@
 }
 
 .tecla11 {
+    background-color: rgb(255, 255, 255);
     width: 8.5%;
     height: 100%;
     margin-left: 0.5%;
@@ -153,8 +160,60 @@ button:active {
 }
 
 
-img {
+.img-iconos-der {
+    width: 80%;
+    
+}
+
+
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+
+.icono-inicio {
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    height: 100%;
+    display: flex;
+    
+}
+
+
+.iconos-derecha {
+    background-color: rgb(0, 0, 0);
     width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    margin-left: 30%;
+   
+}
+
+.img-circulo {
+    width: 90%;
     margin-top: 20%;
 }
 
+
+.img-inicio {
+    width: 80%;
+    margin-top: -5%;
+}
+
+button {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 100%;
+}
+
+
+button:active {
+    background-color: #C48F8F;
+}
