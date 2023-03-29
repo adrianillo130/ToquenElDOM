@@ -91,8 +91,6 @@ document.addEventListener('keypress', (e) => {
             etiquetaAudio.setAttribute("src", "sonidos/11 FA2.mp3");
             console.log(etiquetaAudio)
             etiquetaAudio.play();
-            
-            
     }})
 
 document.addEventListener('keypress', (e) => {

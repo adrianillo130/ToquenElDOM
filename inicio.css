@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Marko+One&display=swap');
+
+
 body {
     background-color: black;
+    
 }
 
 
@@ -70,6 +74,7 @@ main {
     text-align: center;
     margin-top: 5%;
     color: #C48F8F;
+    font-family: 'Marko One', serif;
 }
 
 

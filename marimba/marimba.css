@@ -191,7 +191,10 @@ button:active {
     display: flex;
     justify-content: end;
     margin-left: 30%;
-   
+}
+
+.boton-marimba {
+    width: 33%;
 }
 
 .img-circulo {
