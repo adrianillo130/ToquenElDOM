@@ -18,7 +18,169 @@ let boton = document.querySelector(".reproductor")
 
 tecla1.addEventListener('mousedown', () => {
     let etiquetaAudio = document.createElement("audio")
-    etiquetaAudio.setAttribute("src", "sonidos/1 DO-Tecla+grande.mp3")
+    etiquetaAudio.setAttribute("src", "sonidos/11 FA2.mp3")
     etiquetaAudio.play()
     })
 
+tecla2.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/10 MI2.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla3.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/9 RE2.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla4.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/8 DO_01.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla5.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/7 SI.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla6.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/6 LA.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla7.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/5 SOL.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla8.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/4 FA.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla9.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/3 MI.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla10.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/2 RE.mp3")
+    etiquetaAudio.play()
+    })
+
+tecla11.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio")
+    etiquetaAudio.setAttribute("src", "sonidos/1-DO-Tecla+grande.mp3")
+    etiquetaAudio.play()
+    })
+
+//Arriba versión click-ratón. Abajo versión keyboard.
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "a") {
+            let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/11 FA2.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+            
+            
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "s") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/10 MI2.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "d") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/9 RE2.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "f") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/8 DO_01.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "g") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/7 SI.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "h") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/6 LA.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "j") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/5 SOL.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "k") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/4 FA.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "l") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/3 MI.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "ñ") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/2 RE.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
+
+document.addEventListener('keypress', (e) => {
+        console.log(e.key)
+        if (e.key === "ç") {
+                let etiquetaAudio = document.createElement("audio");
+            etiquetaAudio.setAttribute("src", "sonidos/1-DO-Tecla+grande.mp3");
+            console.log(etiquetaAudio)
+            etiquetaAudio.play();
+    }})
