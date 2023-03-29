@@ -44,6 +44,7 @@ button {
     width: 30%;
     background-color: black;
     border: none;
+    border-radius: 100%;
 }
 
 
@@ -83,18 +84,9 @@ main {
 }
 
 
-.botones-pag-inicio {
+.iconos-pag-inicio {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-
-
-button {
-    border-radius: 100%;
-    
-
-}
-
