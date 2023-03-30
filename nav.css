@@ -37,14 +37,3 @@ img {
 .img-inicio {
     width: 50%;
 }
-
-button {
-    width: 30%;
-    background-color: black;
-    border: none;
-}
-
-
-button:active {
-    background-color: #C48F8F;
-}
