@@ -188,9 +188,9 @@ button:active {
     background-color: #C48F8F;
 }
 
-.boton-marimba {
+/* .boton-marimba {
     width: 33%;
-}
+} */
 
 .img-circulo {
     width: 60%;
@@ -203,4 +203,5 @@ button {
     background-color: rgb(0, 0, 0);
     border: none;
     border-radius: 100%;
+    cursor: pointer;
 }
