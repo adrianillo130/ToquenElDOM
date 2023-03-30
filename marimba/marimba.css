@@ -190,8 +190,6 @@ img {
     border-radius: 20%;
 }
 
-
-
 button:active {
     background-color: #C48F8F;
 }
@@ -235,7 +233,7 @@ button:active {
 }
 
 .img-circulo {
-    width: 90%;
+    width: 60%;
     margin-top: 20%;
 }
 
@@ -251,9 +249,4 @@ button {
     background-color: rgb(0, 0, 0);
     border: none;
     border-radius: 100%;
-}
-
-
-button:active {
-    background-color: #C48F8F;
 }
