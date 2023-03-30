@@ -1,0 +1,13 @@
+const teclasIds = ['tecla1m', 'tecla2m', 'tecla3m', 'tecla4m', 'tecla5m', 'tecla6m', 'tecla7m', 'tecla8m', 'tecla9m', 'tecla10m', 'tecla11m'];
+
+const archivoSonido = ['sonidos/11 FA2.mp3', 'sonidos/10 MI2.mp3', 'sonidos/9 RE2.mp3', 'sonidos/8 DO_01.mp3', 'sonidos/7 SI.mp3', 'sonidos/6 LA.mp3', 'sonidos/5 SOL.mp3', 'sonidos/4 FA.mp3', 'sonidos/3 MI.mp3', 'sonidos/2 RE.mp3', 'sonidos/1-DO-Tecla+grande.mp3'];
+
+for (let i = 0; i < teclasIds.length; i++) {
+let tecla = document.getElementById(teclasIds[i]);
+    tecla.addEventListener('mousedown', () => {
+    let etiquetaAudio = document.createElement("audio");
+    etiquetaAudio.setAttribute("src", archivoSonido[i]);
+    etiquetaAudio.play();
+});
+}
+let boton = document.querySelector(".reproductor");
