@@ -2,15 +2,18 @@ const teclasIds = ['teclado1', 'teclado#1', 'teclare1', 'teclare#1', 'teclami1',
 
 const archivoSonido = ['sonidos-piano/1-do1.mp3', 'sonidos-piano/2-do#1.mp3', 'sonidos-piano/3-re1.mp3', 'sonidos-piano/4-re#1.mp3', 'sonidos-piano/5-mi1.mp3', 'sonidos-piano/6-fa1.mp3', 'sonidos-piano/7-fa#1.mp3', 'sonidos-piano/8-sol1.mp3', 'sonidos-piano/9-sol#1.mp3', 'sonidos-piano/10-la1.mp3', 'sonidos-piano/11-la#1.mp3', 'sonidos-piano/12-si1.mp3', 'sonidos-piano/13-do2.mp3', 'sonidos-piano/14-do#2.mp3', 'sonidos-piano/15-re2.mp3', 'sonidos-piano/16-re#2.mp3', 'sonidos-piano/17-mi2.mp3', 'sonidos-piano/18-fa2.mp3', 'sonidos-piano/19-fa#2.mp3', 'sonidos-piano/20-sol2.mp3', 'sonidos-piano/21-sol#2.mp3', 'sonidos-piano/22-la2.mp3', 'sonidos-piano/23-la#2.mp3', 'sonidos-piano/24-si2.mp3', 'sonidos-piano/25-do3.mp3', 'sonidos-piano/26-do#3.mp3', 'sonidos-piano/27-re3.mp3', 'sonidos-piano/28-re#3.mp3', 'sonidos-piano/29-mi3.mp3', 'sonidos-piano/30-fa3.mp3', 'sonidos-piano/31-fa#3.mp3', 'sonidos-piano/32-sol3.mp3', 'sonidos-piano/33-sol#3.mp3', 'sonidos-piano/34-la3.mp3', 'sonidos-piano/35-la#3.mp3', 'sonidos-piano/36-si3.mp3'];
 
-for (let i = 0; i < teclasIds.length; i++) {
-let tecla = document.getElementById(teclasIds[i]);
+function sonidoMouse(teclasIds, archivoSonido) {
+    for (let i = 0; i < teclasIds.length; i++) {
+    let tecla = document.getElementById(teclasIds[i]);
     tecla.addEventListener('mousedown', () => {
-    let etiquetaAudio = document.createElement("audio");
-    etiquetaAudio.setAttribute("src", archivoSonido[i]);
-    etiquetaAudio.play();
-});
+        let etiquetaAudio = document.createElement("audio");
+        etiquetaAudio.setAttribute("src", archivoSonido[i]);
+        etiquetaAudio.play();
+    });
+    }
+    let boton = document.querySelector(".reproductor");
 }
-let boton = document.querySelector(".reproductor");
+sonidoMouse(teclasIds, archivoSonido);
 
 //-------------------------------------
 
@@ -53,13 +56,37 @@ const teclas = [
     { letra: "M", sonido: "sonidos-piano/36-si3.mp3" },
 ];
 
-for (let i = 0; i < teclas.length; i++) {
+function sonidoKeyboard(teclas) {
+    for (let i = 0; i < teclas.length; i++) {
     const tecla = teclas[i];
     document.addEventListener('keypress', (e) => {
-    if (e.key === tecla.letra) {
+        if (e.key === tecla.letra) {
         const etiquetaAudio = document.createElement("audio");
         etiquetaAudio.setAttribute("src", tecla.sonido);
         etiquetaAudio.play();
-    }
+        }
     });
+    }
 }
+sonidoKeyboard(teclas);
+
+function cambioColorTeclas(teclas, teclasIds) {
+    for (let i = 0; i < teclas.length; i++) {
+    const tecla = teclas[i];
+    document.addEventListener('keydown', (e) => {
+        if (e.key === tecla.letra) {
+        let teclaBlanca = document.getElementById(teclasIds[i])
+        teclaBlanca.style.backgroundColor = "#C48F8F"
+        console.log(teclaBlanca);
+        }
+    })
+    document.addEventListener('keyup', (e) => {
+        if (e.key === tecla.letra) {
+        let teclaBlanca = document.getElementById(teclasIds[i])
+        teclaBlanca.style.backgroundColor = "rgb(255, 255, 255)"
+        console.log(teclaBlanca);
+        }
+    });
+    }
+}
+cambioColorTeclas(teclas, teclasIds);
