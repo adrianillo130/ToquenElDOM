@@ -1,0 +1,1 @@
+const teclasIds = ['tecla1m', 'tecla2m', 'tecla3m', 'tecla4m', 'tecla5m', 'tecla6m', 'tecla7m', 'tecla8m', 'tecla9m', 'tecla10m', 'tecla11m'];
