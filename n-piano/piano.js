@@ -91,6 +91,9 @@ sonidoKeyboard(teclas);
 }
 cambioColorTeclas(teclas, teclasIds); */
 
+const teclasIdsb = ['teclado1', 'teclare1', 'teclami1', 'teclafa1', 'teclasol1', 'teclala1', 'teclasi1', 'teclado2', 'teclare2', 'teclami2', 'teclafa2', 'teclasol2', 'teclala2', 'teclasi2', 'teclado3', 'teclare3', 'teclami3', 'teclafa3', 'teclasol3', 'teclala3', 'teclasi3'];
+
+const teclasIdsn = ['teclado#1', 'teclare#1', 'teclafa#1', 'teclasol#1', 'teclala#1', 'teclado#2', 'teclare#2', 'teclafa#2', 'teclasol#2', 'teclala#2', 'teclado#3', 'teclare#3','teclafa#3', 'teclasol#3', 'teclala#3'];
 
 const teclasB = [
     { letra: "q", sonido: "sonidos-piano/1-do1.mp3" },
@@ -134,44 +137,44 @@ const teclasN = [
     { letra: "J", sonido: "sonidos-piano/35-la#3.mp3" },
 ];
 
-function cambioColorTeclasB(teclasB, teclasIds) {
+function cambioColorTeclasB(teclasB, teclasIdsb) {
     for (let i = 0; i < teclasB.length; i++) {
     const teclab = teclasB[i];
     document.addEventListener('keydown', (e) => {
         if (e.key === teclab.letra) {
-        let teclaBlanca = document.getElementById(teclasIds[i])
+        let teclaBlanca = document.getElementById(teclasIdsb[i])
         teclaBlanca.style.backgroundColor = "#C48F8F"
         console.log(teclaBlanca);
         }
     })
     document.addEventListener('keyup', (e) => {
         if (e.key === teclab.letra) {
-        let teclaBlanca = document.getElementById(teclasIds[i])
+        let teclaBlanca = document.getElementById(teclasIdsb[i])
         teclaBlanca.style.backgroundColor = "rgb(255, 255, 255)"
         console.log(teclaBlanca);
         }
     });
     }
 }
-cambioColorTeclasB(teclasB, teclasIds);
+cambioColorTeclasB(teclasB, teclasIdsb);
 
-function cambioColorTeclasN(teclasN, teclasIds) {
+function cambioColorTeclasN(teclasN, teclasIdsn) {
     for (let i = 0; i < teclasN.length; i++) {
     const teclan = teclasN[i];
     document.addEventListener('keydown', (e) => {
         if (e.key === teclan.letra) {
-        let teclaNegra = document.getElementById(teclasIds[i])
+        let teclaNegra = document.getElementById(teclasIdsn[i])
         teclaNegra.style.backgroundColor = "#C48F8F"
         console.log(teclaNegra);
         }
     })
     document.addEventListener('keyup', (e) => {
         if (e.key === teclan.letra) {
-        let teclaNegra = document.getElementById(teclasIds[i])
+        let teclaNegra = document.getElementById(teclasIdsn[i])
         teclaNegra.style.backgroundColor = "#000000"
         console.log(teclaNegra);
         }
     });
     }
 }
-cambioColorTeclasB(teclasN, teclasIds);
+cambioColorTeclasB(teclasN, teclasIdsn);
