@@ -24,7 +24,7 @@
     margin-left: 30%;
 }
 
-.listaiconosderecha{
+.listaiconosderecha {
     display: flex;
     align-items: center;
 }
@@ -57,16 +57,54 @@ img {
 }
 
 .bateria {
-    background-color: rgb(0, 0, 0);
+    background-color: red;
     width: 80%;
     height: 90%;
     margin: auto;
-    
+
 }
 
 .parte1 {
     display: flex;
     height: 20%;
+}
+
+.botoncrash1 {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 900px;
+    height: 700px;
+    margin-top: -16%;
+}
+
+.botonsplash {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 900px;
+    height: 700px;
+}
+
+.botoncrash2 {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .palos {
@@ -79,7 +117,73 @@ img {
     height: 20%;
 }
 
+.botonhihat {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botontom1 {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botontom2 {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .parte3 {
     display: flex;
     height: 20%;
+}
+
+.botonsnare {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonbass {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonkick {
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
