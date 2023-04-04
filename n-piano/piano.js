@@ -7,7 +7,7 @@ function sonidoMouse(teclasIds, archivoSonido) {
     let tecla = document.getElementById(teclasIds[i]);
     tecla.addEventListener('mousedown', () => {
         let etiquetaAudio = document.createElement("audio");
-        etiquetaAudio.setAttribute("src", archivoSonido[i]);
+        etiquetaAudio.setAttribute("src", archivoSonido[i]);``
         etiquetaAudio.play();
     });
     }
