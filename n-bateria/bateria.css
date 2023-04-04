@@ -70,46 +70,59 @@ img {
 }
 
 .botoncrash1 {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    width: 900px;
-    height: 700px;
-    margin-top: -16%;
+    width: 20%;
+    height: 13%;
+    margin-top: -4%;
+    margin-left: 3%;
+    position: absolute;
+}
+
+.imagencrash1 {
+    width: 450px;
+    height: 350px;
 }
 
 .botonsplash {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    width: 900px;
-    height: 700px;
+}
+
+.imagensplash {
+
 }
 
 .botoncrash2 {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.imagencrash2 {
+
 }
 
 .palos {
     display: flex;
     height: 20%;
+}
+
+.imagenpalocrash1 {
+
+}
+
+.imagenpalosplash {
+
+}
+
+.imagenpalocrash2 {
+
 }
 
 .parte2 {
@@ -118,36 +131,36 @@ img {
 }
 
 .botonhihat {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.imagenhihat {
+
 }
 
 .botontom1 {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
+.imagentom1 {
+
+}
+
 .botontom2 {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.imagentom2 {
+
 }
 
 .parte3 {
@@ -156,34 +169,34 @@ img {
 }
 
 .botonsnare {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.imagensnare {
+
 }
 
 .botonbass {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
+.imagenbass {
+
+}
+
 .botonkick {
-    background-size: cover;
-    background-position: center;
     background-color: transparent;
-    color: white;
-    padding: 10px 20px;
+    background-size: cover;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+}
+
+.imagenkick {
+
 }
