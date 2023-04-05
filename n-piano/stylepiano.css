@@ -48,8 +48,7 @@ img {
 .contenedorhijomain {
     background-color: #000000;
     width: 100%;
-    height: 65%;
-    margin-top: 17%;
+    height: 65vh;
     display: flex;
     justify-content: center;
     margin-top: 11%;
@@ -63,7 +62,7 @@ img {
 
 }
 
-.piano{
+/* .piano{
     width: 90%;
     height: 80%;
     text-align: center;
@@ -72,7 +71,7 @@ img {
     justify-content: center;
     margin-left: 5%;
 }
-
+ */
 .teclasnegras{
     display: flex;
     width: 90%;
@@ -256,4 +255,79 @@ button:active{
 .img-circulo{
     width: 28%;
     margin-top: 570%;
+}
+
+.modulo{
+    display: flex;
+    justify-content: center;
+}
+
+.piano{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.tecla-b{
+    width: 2.8rem;
+    height: 20rem;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-right: 0.4rem;
+    margin-bottom: 10px;
+}
+
+.tecla-n{
+    background-color: #000000;
+    position: absolute;
+    margin-left: 10.5%;
+    width: 2rem;
+    height: 10rem;
+    z-index:2;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.tecla-n1{
+    margin-left: -3.8rem;
+}
+
+.tecla-n2{
+    margin-left: 2.9rem;
+}
+
+.tecla-n3{
+    margin-left: -6.7rem;
+}
+
+.tecla-n4{
+    margin-left: -0.3rem;
+}
+
+.tecla-n5{
+    margin-left: 6rem;
+}
+
+@media screen and (max-width: 1132px) {
+    .contenedorpiano{
+        height: 50vh;
+    }
+    .contenedorhijomain{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 592px) {
+    .contenedorpiano{
+        height: 100vh;
+    }
+    .contenedorhijomain{
+        height: 110vh;
+    }
 }
