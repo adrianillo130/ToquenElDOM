@@ -161,6 +161,7 @@ img {
     height: 13%;
     margin-top: -13%;
     margin-left: -2%;
+    z-index: 4;
 }
 
 .imagenhihat {
@@ -174,6 +175,7 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .imagentom1 {
@@ -187,6 +189,7 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
+    z-index: 2;
 }
 
 .imagentom2 {
@@ -205,6 +208,7 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
+    z-index: 3;
 }
 
 .imagensnare {
@@ -218,6 +222,7 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
+    z-index: 1;
 }
 
 .imagenbass {
@@ -231,6 +236,7 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
+    z-index: 3;
 }
 
 .imagenkick {
