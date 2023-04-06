@@ -71,7 +71,7 @@ function sonidoKeyboard(teclas) {
 }
 sonidoKeyboard(teclas);
 
-/* function cambioColorTeclas(teclas, teclasIds) {
+function cambioColorTeclas(teclas, teclasIds) {
     for (let i = 0; i < teclas.length; i++) {
     const tecla = teclas[i];
     document.addEventListener('keydown', (e) => {
@@ -90,7 +90,7 @@ sonidoKeyboard(teclas);
     });
     }
 }
-cambioColorTeclas(teclas, teclasIds); */
+cambioColorTeclas(teclas, teclasIds);
 
 const teclasIdsb = ['teclado1', 'teclare1', 'teclami1', 'teclafa1', 'teclasol1', 'teclala1', 'teclasi1', 'teclado2', 'teclare2', 'teclami2', 'teclafa2', 'teclasol2', 'teclala2', 'teclasi2', 'teclado3', 'teclare3', 'teclami3', 'teclafa3', 'teclasol3', 'teclala3', 'teclasi3'];
 
