@@ -302,3 +302,7 @@ img {
     height: 495px;
     z-index: 3;
 }
+
+.imagenTAP{
+    display: none;
+}
