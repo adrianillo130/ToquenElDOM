@@ -340,6 +340,7 @@ button:active{
         height: 55vh;
     }
 }
+
 @media all and (min-width: 1024px) and (max-width:1131px) {
     .piano{
         flex-wrap: wrap;

@@ -61,7 +61,6 @@ img {
     width: 80%;
     height: 90%;
     margin: auto;
-
 }
 
 .parte1 {
@@ -71,7 +70,6 @@ img {
 
 .botoncrash1 {
     background-color: transparent;
-    background-color: red;
     background-size: cover;
     border: none;
     border-radius: 50%;
@@ -96,7 +94,6 @@ img {
 
 .botonsplash {
     background-color: transparent;
-    background-color: red;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -119,7 +116,6 @@ img {
 
 .botoncrash2 {
     background-color: transparent;
-    background-color: red;
     border-radius: 50%;
     background-size: cover;
     display: flex;
@@ -173,14 +169,17 @@ img {
 
 .botonhihat {
     background-color: transparent;
-    /* background-color: red; */
     background-size: cover;
     border: none;
+    border-radius: 60%;
     cursor: pointer;
-    width: 20%;
-    height: 13%;
-    margin-top: -13%;
-    margin-left: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 60%;
+    margin-top: 0.5%;
+    margin-left: 11%;
     z-index: 4;
 }
 
@@ -192,12 +191,16 @@ img {
 
 .botontom1 {
     background-color: transparent;
-    /* background-color: red; */
-    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 130%;
     border: none;
     cursor: pointer;
-    margin-top: -11%;
-    margin-left: 3%;
+    margin-top: -0.5%;
+    margin-left: 10%;
     z-index: 2;
 }
 
@@ -210,10 +213,16 @@ img {
 .botontom2 {
     background-color: transparent;
     background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 110%;
     border: none;
     cursor: pointer;
-    margin-top: -15%;
-    margin-left: -21%;
+    margin-top: -3%;
+    margin-left: 10%;
     z-index: 2;
 }
 
@@ -230,11 +239,17 @@ img {
 
 .botonsnare {
     background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 130%;
     background-size: cover;
     border: none;
     cursor: pointer;
-    margin-top: -9%;
-    margin-left: 4%;
+    margin-top: 1.5%;
+    margin-left: 20%;
     z-index: 3;
 }
 
@@ -249,8 +264,14 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
-    margin-top: -9%;
-    margin-left: -13%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 130%;
+    margin-top: 2%;
+    margin-left: 17%;
     z-index: 1;
 }
 
@@ -265,8 +286,14 @@ img {
     background-size: cover;
     border: none;
     cursor: pointer;
-    margin-top: -6%;
-    margin-left: -14%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 130%;
+    margin-top: 4.75%;
+    margin-left: 16%;
     z-index: 3;
 }
 
