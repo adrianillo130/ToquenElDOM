@@ -48,7 +48,7 @@ img {
 .contenedorhijomain {
     background-color: #000000;
     width: 100%;
-    height: 42vh;
+    height: 58vh;
     display: flex;
     justify-content: center;
     margin-top: 11%;
@@ -57,7 +57,7 @@ img {
 .contenedorpiano {
     background-color: #C48F8F;
     width: 95%;
-    height: 30vh;
+    height: 43vh;
     margin-top: 7%;
 
 }
@@ -269,7 +269,7 @@ button:active{
     margin-top: 3%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 
@@ -314,20 +314,64 @@ button:active{
     margin-left: 6rem;
 }
 
-@media screen and (max-width:1132px) {
+/* @media only screen and (max-width:1132px) {
     .contenedorpiano{
-        height: 55vh;
+        height: 80vh;
     }
     .contenedorhijomain{
-        height: 65vh;
+        height: 82vh;
     }
 }
 
-@media screen and (max-width:592px) {
+@media only screen and (max-width:592px) {
     .contenedorpiano{
         height: 130vh;
     }
     .contenedorhijomain{
         height: 140vh;
+    }
+} */
+
+@media all and (min-width: 1131px) and (max-width:1920px) {
+    .contenedorpiano{
+        height: 42vh;
+    }
+    .contenedorhijomain{
+        height: 55vh;
+    }
+}
+@media all and (min-width: 1024px) and (max-width:1131px) {
+    .piano{
+        flex-wrap: wrap;
+    }
+    .contenedorpiano{
+        height: 70vh;
+    }
+    .contenedorhijomain{
+        height: 80vh;
+    }
+}
+
+@media all and (min-width: 592px) and (max-width:1024px) {
+    .piano{
+        flex-wrap: wrap;
+    }
+    .contenedorpiano{
+        height: 65vh;
+    }
+    .contenedorhijomain{
+        height: 75vh;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width:592px) {
+    .piano{
+        flex-wrap: wrap;
+    }
+    .contenedorpiano{
+        height: 95vh;
+    }
+    .contenedorhijomain{
+        height: 105vh;
     }
 }
